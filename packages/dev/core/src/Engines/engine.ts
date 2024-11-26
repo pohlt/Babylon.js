@@ -149,6 +149,10 @@ export class Engine extends ThinEngine {
     public static readonly TEXTUREFORMAT_RED = Constants.TEXTUREFORMAT_RED;
     /** RED (2nd reference) */
     public static readonly TEXTUREFORMAT_R = Constants.TEXTUREFORMAT_R;
+    /** RED unsigned short normed to [0, 1] **/
+    public static readonly TEXTUREFORMAT_R16_UNORM = Constants.TEXTUREFORMAT_R16_UNORM;
+    /** RED signed short normed to [-1, 1] **/
+    public static readonly TEXTUREFORMAT_R16_SNORM = Constants.TEXTUREFORMAT_R16_SNORM;
     /** RG */
     public static readonly TEXTUREFORMAT_RG = Constants.TEXTUREFORMAT_RG;
     /** RED_INTEGER */

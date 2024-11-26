@@ -18,6 +18,8 @@ interface WebGL2RenderingContext extends WebGL2RenderingContextBase {
     UNSIGNED_INT_24_8: typeof WebGL2RenderingContext.UNSIGNED_INT_24_8;
     MIN: typeof WebGL2RenderingContext.MIN;
     MAX: typeof WebGL2RenderingContext.MAX;
+    R16_EXT: number;
+    R16_SNORM_EXT: number;
 }
 
 interface EXT_disjoint_timer_query {

@@ -233,6 +233,8 @@ type GPUTextureFormat =
     | "r8sint"
 
     // 16-bit formats
+    | "r16unorm"
+    | "r16snorm"
     | "r16uint"
     | "r16sint"
     | "r16float"

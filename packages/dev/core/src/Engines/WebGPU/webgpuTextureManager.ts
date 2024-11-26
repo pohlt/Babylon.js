@@ -290,6 +290,9 @@ export const renderableTextureFormatToIndex: { [name: string]: number } = {
     depth32float: 37,
 
     "depth32float-stencil8": 38,
+
+    r16unorm: 39,
+    r16snorm: 40,
 };
 
 /** @internal */

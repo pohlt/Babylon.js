@@ -121,4 +121,6 @@ export interface EngineCapabilities {
     supportFloatTexturesResolve: boolean;
     /** Defines if RG11B10UFloat texture format is color renderable */
     rg11b10ufColorRenderable: boolean;
+    /** Defines if EXT_texture_norm16 is available */
+    textureNorm16: boolean;
 }
